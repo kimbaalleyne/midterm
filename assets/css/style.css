@@ -1,0 +1,194 @@
+*{
+	font-family: arial;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+h1, h4{
+	font-family: arial;
+	font-weight:normal;
+}
+
+h1{
+	font-size:50px;
+}
+
+h2{
+    font-size:40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 10px;
+}
+
+p{
+	font-size:20px;
+}
+
+.btn{
+	text-decoration:none;
+	display:inline-block;
+	padding:10px;
+	border-radius:10px;
+	background:#35354D;
+	color:#fff;
+}
+
+.btn:hover{
+	background:#E57997;
+	color:#fff;
+}
+
+/*Nav*/
+header{
+	position:relative;
+}
+
+header img{
+	padding:10px;
+	display: block;
+}
+
+nav{
+	position:absolute;
+	top:20px;
+	right:37px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	display:block;
+	padding:10px;
+	border:solid #35354D;
+	border-radius: 15px;
+	color:#35354D;
+	text-decoration:none;
+}
+
+nav a:hover{
+	color:#E57997;
+	border:solid #E57997;
+}
+
+#hero{
+	background:url(../img/bg2.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	background-attachment: fixed;
+	height:calc(100vh - 120px);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero div{
+	background:rgba(255,255,255,.50);
+	padding:20px;
+	text-align: center;
+	max-width:1000px;
+	border-radius:10px;
+}
+
+#hero h1, #hero p{
+	margin-bottom:20px;
+}
+
+#port{
+	padding:40px 0px;
+}
+
+#port h1, #port p{
+	text-align:center;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+#port img{
+	max-width:100%;
+	border:5px solid #C52551;
+}
+
+#port .col{
+	padding:10px;
+	text-align:center;
+}
+
+.container{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.container:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.col{
+	float:left;
+}
+
+.c3{
+	width:33.333333%;
+}
+
+.c2{
+	width:50%;
+}
+
+#cta{
+	padding:0px 0px;
+	text-align: center;
+	background: #F1B1C2;
+}
+
+#cta h1, #cta p{
+	margin-bottom: 20px;
+}
+
+#flexcontent{
+    max-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#flexcol{
+    background: #000;
+    display: flex;
+}
+
+.fcol{
+    background: #F1B1C2;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.fcol p{
+    margin: 0;
+}
+
+
+footer{
+	padding:20px 0px;
+	text-align: center;
+}
+
+footer p{
+	font-size:14px;
+}
+
